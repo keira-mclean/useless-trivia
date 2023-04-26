@@ -1,0 +1,23 @@
+body {
+	background-color: #cccccc;
+    background-image: linear-gradient(rgb(160, 160, 228), rgb(225, 225, 164));
+}
+
+img {
+	display: block;
+	border-top:	solid;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 1px;
+}
+
+.question{
+	font-weight: 600;
+}
+.answers {
+  margin-bottom: 20px;
+}
+.answers label{
+  display: block;
+}
+
