@@ -87,7 +87,7 @@ const questions = [
             d: "Puggle"
         },
         correct: "b",
-        image: "<img src='/images/shoelace.jpg'>"
+        image: "<img src='./images/shoelace.jpg'>"
     },
     {
         question: "What are the posts in the parking lot that lets wheelchairs and shopping carts go through, but not your car?",
@@ -98,7 +98,7 @@ const questions = [
             d: "Liripipe"
         },
         correct: "a",
-        image: "<img src='/images/steelpost.jpg'>"
+        image: "<img src='./images/steelpost.jpg'>"
 
     },
     {
@@ -110,7 +110,7 @@ const questions = [
             d: "Gudgeon"
         },
         correct: "a",
-        image: "<img src='/images/junkchars.jpg'>"
+        image: "<img src='./images/junkchars.jpg'>"
 
     },
     {
@@ -122,7 +122,7 @@ const questions = [
             d: "Furrule"
         },
         correct: "d",
-        image: "<img src='/images/eraserthing.jpg'>"
+        image: "<img src='./images/eraserthing.jpg'>"
 
     },
     {
@@ -134,7 +134,7 @@ const questions = [
             d: "Wittol"
         },
         correct: "a",
-        image: "<img src='/images/bucklethingy.jpg'>"
+        image: "<img src='./images/bucklethingy.jpg'>"
 
     },
     {
@@ -146,7 +146,7 @@ const questions = [
             d: "Kerf"
         },
         correct: "d",
-        image: "<img src='/images/cutseam.jpg'>"
+        image: "<img src='./images/cutseam.jpg'>"
 
     },
     {
@@ -158,7 +158,7 @@ const questions = [
             d: "Mim"
         },
         correct: "c",
-        image: "<img src='/images/bottlebottom.jpg'>"
+        image: "<img src='./images/bottlebottom.jpg'>"
 
     },
     {
@@ -170,7 +170,7 @@ const questions = [
             d: "Dariole"
         },
         correct: "b",
-        image: "<img src='/images/noselipgroove.jpg'>"
+        image: "<img src='./images/noselipgroove.jpg'>"
 
     },
     {
@@ -182,7 +182,7 @@ const questions = [
             d: "Phosphenes"
         },
         correct: "d",
-        image: "<img src='/images/eyestars.jpg'>"
+        image: "<img src='./images/eyestars.jpg'>"
 
     },
     {
@@ -194,7 +194,7 @@ const questions = [
             d: "Ensorcell"
         },
         correct: "a",
-        image: "<img src='/images/earthingy.jpg'>"
+        image: "<img src='./images/earthingy.jpg'>"
 
     }
 ];
