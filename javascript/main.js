@@ -145,7 +145,7 @@
             question: 'What is the groove made by a sawblade, ie, the width of a cut?',
             choices: {
                 a: "Dwal",
-                b: "Tiffin",
+                b: "Chert",
                 c: "Marlet",
                 d: "Kerf"
             },
