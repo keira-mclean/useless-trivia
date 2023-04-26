@@ -38,15 +38,12 @@ function showResults() {
 
         if(userAnswer === currentQuestion.correct) {
         numCorrect++;
-
-        answerResults[questionNumber].style.color = 'lightgreen';
         } else {
-            answerResults[questionNumber].style.color = 'red';
             numIncorrect++;
         }
     });
     results.innerHTML = `${numCorrect} out of ${questions.length} Correct and ${numIncorrect} wrong`;
-    r
+    
 }
 
 const quiz = document.getElementById("quiz");
