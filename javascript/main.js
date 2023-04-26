@@ -87,7 +87,7 @@ const questions = [
             d: "Puggle"
         },
         correct: "b",
-        image: '<img src="./images/shoelace.jpg">'
+        image: `<img src="./images/shoelace.jpg"></img>`
     },
     {
         question: "What are the posts in the parking lot that lets wheelchairs and shopping carts go through, but not your car?",
