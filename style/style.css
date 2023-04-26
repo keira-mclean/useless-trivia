@@ -38,3 +38,8 @@ img {
     margin-top: 40px;
     padding: 40px;
   }
+#reset{
+    position: absolute;
+    left: 240px;
+    margin-top: 10px;
+}

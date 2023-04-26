@@ -32,7 +32,7 @@
     
         let numCorrect = 0;
         let numIncorrect = 0;
-    
+
         questions.forEach ((currentQuestion, questionNumber) => {
             const answerResult = answerResults[questionNumber];
             const selector = `input[name=question${questionNumber}]:checked`;
@@ -44,8 +44,9 @@
                 numIncorrect++;
             }
         });
-        results.innerHTML = `${numCorrect} out of ${questions.length} Correct and ${numIncorrect} wrong`;
         
+        results.innerHTML = `${numCorrect} out of ${questions.length} Correct and ${numIncorrect} wrong`;
+        score.innerHTML = `${(questions.length/numCorrect)*100}%`;
     }
     
     function showSlide(n) {
@@ -204,6 +205,7 @@
     const previousButton = document.getElementById("previous");
     const nextButton = document.getElementById("next");
     const slides = document.querySelectorAll(".slide");
+    const resetButton = document.getElementById("reset");
     let currentSlide = 0;
     
     showSlide(currentSlide);
@@ -211,5 +213,7 @@
     submit.addEventListener("click", showResults);
     previousButton.addEventListener("click", showPreviousSlide);
     nextButton.addEventListener("click", showNextSlide);
-    
+    resetButton.addEventListener("click", () => {
+        window.location.reload()
+    });
     })();
