@@ -46,7 +46,7 @@
         });
         
         results.innerHTML = `${numCorrect} out of ${questions.length} Correct and ${numIncorrect} wrong`;
-        score.innerHTML = `${(questions.length/numCorrect)*100}%`;
+        score.innerHTML = `${((questions.length/numCorrect)*10).toFixed(0)}%`;
     }
     
     function showSlide(n) {
