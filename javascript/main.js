@@ -44,9 +44,12 @@
                 numIncorrect++;
             }
         });
+
         
-        results.innerHTML = `${numCorrect} out of ${questions.length} Correct and ${numIncorrect} wrong`;
-        score.innerHTML = `${((questions.length/numCorrect)*10).toFixed(0)}%`;
+        
+        results.innerHTML = `${numCorrect} out of ${questions.length} Correct 
+        ${Math.round((questions.length / numCorrect) *10 )} %`;
+        
     }
     
     function showSlide(n) {
