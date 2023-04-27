@@ -40,16 +40,19 @@
     
             if(userAnswer === currentQuestion.correct) {
             numCorrect++;
+            answerResults[questionNumber].style.color = 'darkgreen';
             } else {
                 numIncorrect++;
+                answerResults[questionNumber].style.color = 'red';
             }
         });
 
         
         
-        results.innerHTML = `${numCorrect} out of ${questions.length} Correct 
-        ${Math.round((questions.length / numCorrect) *10 )} %`;
+        results.innerHTML = `${numCorrect} out of ${questions.length} Correct`
+
         
+        score.innerHTML = `You scored ${((numCorrect/questions.length)*100)}%`
     }
     
     function showSlide(n) {
