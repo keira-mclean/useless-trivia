@@ -1,5 +1,6 @@
 (function(){
 
+
     function buildQuiz() {
         const output = [];
     
@@ -53,6 +54,13 @@
 
         
         score.innerHTML = `You scored ${((numCorrect/questions.length)*100)}%`
+
+        if(numCorrect === 10) {
+            message.innerHTML = `You may consider yourself an expert of useless knowledge!`;
+        } else {
+            message.innerHTML = `Not quite an expert yet, browse through the previous questions to see the ones that are wrong in red font.`;
+        }
+
     }
     
     function showSlide(n) {
@@ -78,6 +86,10 @@
     }
     function showPreviousSlide() {
         showSlide(currentSlide - 1);
+    }
+
+    function startQuiz() {
+        
     }
     
     const quiz = document.getElementById("quiz");
@@ -205,17 +217,22 @@
     
         }
     ];
-    
+
     buildQuiz();
-    
+
+
+
     const previousButton = document.getElementById("previous");
     const nextButton = document.getElementById("next");
     const slides = document.querySelectorAll(".slide");
     const resetButton = document.getElementById("reset");
+
+    
     let currentSlide = 0;
     
     showSlide(currentSlide);
     
+
     submit.addEventListener("click", showResults);
     previousButton.addEventListener("click", showPreviousSlide);
     nextButton.addEventListener("click", showNextSlide);

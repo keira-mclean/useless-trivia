@@ -68,3 +68,10 @@ img {
     padding: 12px 28px;
     border-radius: 12px;
 }
+#start{
+    background-color: black;
+    color: white;
+    width: 250px;
+    padding: 14px 40px;
+    border-radius: 12px;
+}
