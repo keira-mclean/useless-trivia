@@ -78,5 +78,12 @@ img {
     padding: 12px 28px;
     border-radius: 12px;
 }
-
+#start {
+    margin-top: 10px;
+    background-color: black;
+    color:white;
+    width: 250px;
+    padding: 14px 40px;
+    border-radius: 12px;
+}
 
