@@ -1,5 +1,6 @@
 (function(){
-    const timerElement = document.getElementById('start');
+    const timerElement = document.getElementById("start");
+    const endTimer = document.getElementById("submit");
     let timer;
 
     function startTimeCountDown() {
@@ -11,15 +12,15 @@
     function countdown() {
         if (timer == 0) {
             clearTimeout(timer);
-            timerElement.innerHTML = 'Start'
+            timerElement.innerHTML = "Start"
 
         } else {
-            timerElement.innerHTML = timer + ' seconds remaining';
+            timerElement.innerHTML = timer + " seconds remaining";
             timer--;
         }
     }
 
-    timerElement.addEventListener('click', event => {
+    timerElement.addEventListener("click", event => {
         startTimeCountDown();
     });
 

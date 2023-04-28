@@ -52,6 +52,7 @@ img {
     width: 250px;
     padding: 14px 40px;
     border-radius: 12px;
+    font-size: .8em;
 }
 
 #next {
@@ -60,6 +61,7 @@ img {
     width: 125px;
     padding: 12px 28px;
     border-radius: 12px;
+    font-size: .8em;
 }
 
 #previous {
@@ -68,6 +70,7 @@ img {
     width: 125px;
     padding: 12px 28px;
     border-radius: 12px;
+    font-size: .8em;
 
 }
 
@@ -77,6 +80,7 @@ img {
     width: 125px;
     padding: 12px 28px;
     border-radius: 12px;
+    font-size: .8em;
 }
 #start {
     margin-top: 10px;
@@ -85,5 +89,6 @@ img {
     width: 250px;
     padding: 14px 40px;
     border-radius: 12px;
+    font-size: 1em;
 }
 
