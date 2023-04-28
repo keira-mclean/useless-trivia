@@ -27,6 +27,8 @@
     
         quiz.innerHTML = output.join('');
     }
+
+
     
     function showResults() {
         const answerResults = quiz.querySelectorAll('.answers');
@@ -88,10 +90,6 @@
         showSlide(currentSlide - 1);
     }
 
-    function startQuiz() {
-        
-    }
-    
     const quiz = document.getElementById("quiz");
     const submit = document.getElementById("submit");
     const results = document.getElementById("results");
@@ -232,7 +230,6 @@
     
     showSlide(currentSlide);
     
-
     submit.addEventListener("click", showResults);
     previousButton.addEventListener("click", showPreviousSlide);
     nextButton.addEventListener("click", showNextSlide);
