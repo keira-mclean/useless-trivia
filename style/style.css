@@ -1,25 +1,28 @@
 body {
-	background-color: #cccccc;
+    background-color: #cccccc;
     background-image: linear-gradient(rgb(160, 160, 228), rgb(225, 225, 164));
 }
 
 img {
-	display: block;
-	width: 100px;
-	height: 100px;
-	margin-bottom: 1px;
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1px;
 }
 
-.question{
-	font-weight: 600;
+.question {
+    font-weight: 600;
 }
+
 .answers {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
-.answers label{
-  display: block;
+
+.answers label {
+    display: block;
 }
-.slide{
+
+.slide {
     position: absolute;
     left: 0px;
     top: 0px;
@@ -27,33 +30,39 @@ img {
     z-index: 1;
     opacity: 0;
     transition: opacity 0.5s;
-  }
-  .active-slide{
+}
+
+.active-slide {
     opacity: 1;
     z-index: 2;
-  }
-  .quiz-container{
+}
+
+.quiz-container {
     position: relative;
     height: 200px;
     margin-top: 40px;
     padding: 40px;
-  }
-#reset{
+}
+
+#reset {
     position: absolute;
     margin-top: 10px;
-    background-color: #e7e7e7; color: black;
+    background-color: #e7e7e7;
+    color: black;
     width: 250px;
     padding: 14px 40px;
     border-radius: 12px;
 }
-#next{
+
+#next {
     background-color: blue;
     color: white;
     width: 125px;
     padding: 12px 28px;
     border-radius: 12px;
 }
-#previous{
+
+#previous {
     background-color: rgb(154, 154, 224);
     color: white;
     width: 125px;
@@ -61,17 +70,13 @@ img {
     border-radius: 12px;
 
 }
-#submit{
+
+#submit {
     background-color: green;
     color: white;
     width: 125px;
     padding: 12px 28px;
     border-radius: 12px;
 }
-#start{
-    background-color: black;
-    color: white;
-    width: 250px;
-    padding: 14px 40px;
-    border-radius: 12px;
-}
+
+
